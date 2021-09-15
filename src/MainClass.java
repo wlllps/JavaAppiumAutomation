@@ -10,12 +10,3 @@ public class MainClass{
     }
 }
 
-class MainClassTest {
-    public MainClassTest() {
-    }
-
-    @Test
-    public void testGetClassNumber() {
-        MainClass mainClass = new MainClass();
-    }
-}
