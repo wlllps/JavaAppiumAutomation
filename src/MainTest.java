@@ -18,8 +18,8 @@ class MainClassTest
     @Test
     public void testGetLocalNumber()
     {
-        MainTest LN = new MainTest();
-        int LC = LN.getLocalNumber();
-        Assert.assertTrue(LC == 14);
+        MainTest Ln = new MainTest();
+        int Lc = Ln.getLocalNumber();
+        Assert.assertTrue(Lc == 14);
     }
 }
