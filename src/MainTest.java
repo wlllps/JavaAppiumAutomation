@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class MainTest {
@@ -10,4 +11,15 @@ public class MainTest {
         {
             return 14;
         }
+}
+
+class MainClassTest
+{
+    @Test
+    public void testGetLocalNumber()
+    {
+        MainTest LN = new MainTest();
+        int LC = LN.getLocalNumber();
+        Assert.assertTrue(LC == 14);
+    }
 }
